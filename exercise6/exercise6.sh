@@ -1,0 +1,13 @@
+#! /bin/bash
+echo -e "information about currently logged user:\n"
+echo  -e "$(who)\n"
+echo -e "currently logged user's log in name:\n"
+echo -e "$(whoami)\n"
+echo -e "current shell\n"
+echo  -e "$SHELL\n"
+echo  -e "home directory\n"
+echo -e "$HOME\n"
+echo -e  "operating system type\n"
+echo -e "$(uname)\n"
+echo  -e "current working directory\n"
+echo -e "$(pwd)\n"
